@@ -1,0 +1,22 @@
+.aboutWrapper {
+  background-color: #a7cdcc;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.paragraph {
+  text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+.image {
+  width: 80%;
+  align-self: center;
+}
