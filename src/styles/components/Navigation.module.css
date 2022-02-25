@@ -1,0 +1,23 @@
+.navigationBarWrapper {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #daa860;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  height: auto;
+  height: 60px;
+}
+.linkLike {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Reenie Beanie";
+  font-size: 28px;
+}

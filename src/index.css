@@ -1,19 +1,41 @@
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
+body,
+html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: "Reenie Beanie";
+  src: local("Reenie Beanie"),
+    url(./assets/fonts/ReenieBeanie-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Pavanam";
+  src: local("Pavanam"),
+    url(./assets/fonts/Pavanam-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Reenie Beanie";
+  font-size: 45px;
+}
+
+h2 {
+  font-family: "Reenie Beanie";
+  font-size: 37px;
+}
+h3 {
+  font-family: "Reenie Beanie";
+  font-size: 28px;
+}
+
+p {
+  font-family: "Pavanam";
+  font-size: 18px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
 }
