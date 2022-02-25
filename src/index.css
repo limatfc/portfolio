@@ -11,9 +11,9 @@ html {
 }
 
 @font-face {
-  font-family: "Pavanam";
-  src: local("Pavanam"),
-    url(./assets/fonts/Pavanam-Regular.ttf) format("truetype");
+  font-family: "Architects Daughter";
+  src: local("Architects Daughter"),
+    url(./assets/fonts/ArchitectsDaughter-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
@@ -27,15 +27,14 @@ h2 {
   font-size: 37px;
 }
 h3 {
+  margin: 0;
   font-family: "Reenie Beanie";
   font-size: 28px;
 }
 
 p {
-  font-family: "Pavanam";
+  font-family: "Architects Daughter";
   font-size: 18px;
-}
-
-p {
-  font-family: "Times New Roman", Times, serif;
+  line-height: 25px;
+  letter-spacing: 1.5%;
 }
