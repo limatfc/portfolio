@@ -4,17 +4,24 @@
     "title": "To do list",
     "description": "This EIKA to do list project allows its users to add products and their prices to a shopping list, and allows users to save the list even after the webapp is closed. This project was created for EIKA's clients.",
     "comingSoon": false,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list.png?raw=true",
-    "technologies": [
-      {
-        "React": true,
-        "CSS": true,
-        "LocalStorage": true,
-        "JavaScript": true,
-        "ContextAPI": true,
-        "Prop types": false,
-        "FireStorage": false
-      }
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list.png?raw=true",
+    "modalImageURL": "",
+    "gitLink": "https://github.com/limatfc/ikeaShoppingList",
+    "repositoryLink": "https://limatfc.github.io/ikeaShoppingList/#/",
+    "technologiesUsed": [
+      "React",
+      "CSS",
+      "LocalStorage",
+      "JavaScript",
+      "ContextAPI"
+    ],
+    "technologiesNotUsed": [
+      "Recoil",
+      "Prop types",
+      "FireStorage",
+      "TypeScript",
+      "CloudStorage",
+      "FireAuth"
     ]
   },
   {
@@ -22,59 +29,55 @@
     "title": "Great Quotes",
     "description": "This Great Quotes project allows its users to add their favorite quote and author to the platform, as well as comment to other user's publications. This project was created for the general public.",
     "comingSoon": false,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-quotes.png?raw=true",
-    "technologies": [
-      {
-        "React": true,
-        "CSS": true,
-        "LocalStorage": false,
-        "JavaScript": true,
-        "ContextAPI": false,
-        "Prop types": false,
-        "FireStorage": true
-      }
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-quotes.png?raw=true",
+    "modalImageURL": "",
+    "gitLink": "https://github.com/limatfc/greatQuotes",
+    "repositoryLink": "https://greatquotes-e7108.web.app/quotes",
+    "technologiesUsed": ["React", "CSS", "JavaScript", "FireStorage"],
+    "technologiesNotUsed": [
+      "Recoil",
+      "Prop types",
+      "TypeScript",
+      "CloudStorage",
+      "FireAuth",
+      "ContextAPI",
+      "LocalStorage"
     ]
   },
   {
     "id": 3,
     "title": "Vegan Restaurant",
-    "description": null,
     "comingSoon": true,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
   },
   {
     "id": 4,
     "title": "Package tracker",
-    "description": null,
     "comingSoon": true,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
   },
   {
     "id": 5,
     "title": "E-commerce site",
-    "description": null,
     "comingSoon": true,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
   },
   {
     "id": 6,
     "title": "BBQ restaurant",
-    "description": null,
     "comingSoon": true,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
   },
   {
     "id": 7,
     "title": "Learning Platform",
-    "description": null,
     "comingSoon": true,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
   },
   {
     "id": 8,
     "title": "Netflix clone",
-    "description": null,
     "comingSoon": true,
-    "imageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
   }
 ]
