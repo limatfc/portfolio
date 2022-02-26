@@ -16,6 +16,7 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
 
   return (
     <div>
+      <button>x</button>
       <div
         className={classes.backdrop}
         role="dialog"

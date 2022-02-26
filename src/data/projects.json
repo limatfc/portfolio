@@ -5,7 +5,7 @@
     "description": "This EIKA to do list project allows its users to add products and their prices to a shopping list, and allows users to save the list even after the webapp is closed. This project was created for EIKA's clients.",
     "comingSoon": false,
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list.png?raw=true",
-    "modalImageURL": "",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modai-todo-list.png?raw=true",
     "gitLink": "https://github.com/limatfc/ikeaShoppingList",
     "repositoryLink": "https://limatfc.github.io/ikeaShoppingList/#/",
     "technologiesUsed": [
@@ -30,7 +30,7 @@
     "description": "This Great Quotes project allows its users to add their favorite quote and author to the platform, as well as comment to other user's publications. This project was created for the general public.",
     "comingSoon": false,
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-quotes.png?raw=true",
-    "modalImageURL": "",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-quotes.png?raw=true",
     "gitLink": "https://github.com/limatfc/greatQuotes",
     "repositoryLink": "https://greatquotes-e7108.web.app/quotes",
     "technologiesUsed": ["React", "CSS", "JavaScript", "FireStorage"],
