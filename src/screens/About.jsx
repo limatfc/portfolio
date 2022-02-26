@@ -4,7 +4,7 @@ import mainImage from "../assets/images/about-main-image.png";
 export default function About() {
   return (
     <section id="about" className={classes.aboutWrapper}>
-      <h3 className={classes.title}>About me</h3>
+      <h2 className={classes.title}>About me</h2>
       <p className={classes.paragraph}>
         Hey! My name is Thaisa, and I am a junior frontend developer. I am from
         Lavras, a really small city in the Brazilian countryside. However, I got

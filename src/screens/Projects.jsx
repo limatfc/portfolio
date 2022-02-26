@@ -1,24 +1,26 @@
-import projectsData from "../data/projects.json";
+import classes from "../styles/screens/Projects.module.css";
+import Modal from "../components/Modal";
+import { useState } from "react";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
-  const cards = projectsData.map((item) => (
-    <div key={item.id}>
-      <img
-        src={item.imageURL}
-        alt="ilustration related to the project title."
-      />
-      <h3>{item.title}</h3>
-    </div>
-  ));
+  const [showModal, setShowModal] = useState(false);
+
+  function onToggleModal() {
+    setShowModal(!showModal);
+  }
 
   return (
-    <section id="projects">
+    <section id="projects" className={classes.projectsWrapper}>
       <h2>Projects</h2>
       <p>
         Here are the projects I have done so far, plus a few I am going to be
         making during the Novare Intensive FrontEnd Course.
       </p>
-      {cards}
+      <div className={classes.allCardsWrapper}>
+        <ProjectCard onToggleModal={onToggleModal} />
+      </div>
+      {showModal && <Modal onToggleModal={onToggleModal} />}
     </section>
   );
 }

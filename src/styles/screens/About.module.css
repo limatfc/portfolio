@@ -3,17 +3,10 @@
   display: flex;
   flex-direction: column;
   padding-top: 60px;
-}
-
-.title {
-  padding-left: 24px;
-  padding-top: 24px;
+  padding-bottom: 60px;
 }
 
 .paragraph {
-  text-align: justify;
-  padding-left: 16px;
-  padding-right: 16px;
   margin-bottom: 0;
 }
 
