@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "To do list",
+    "description": "This EIKA to do list project allows its users to add products and their prices to a shopping list, and allows users to save the list even after the webapp is closed. This project was created for EIKA's clients.",
+    "coming soon": false,
+    "imageURL": "../assets/images/projects-todo-list.png",
+    "technologies": [
+      {
+        "React": true,
+        "CSS": true,
+        "LocalStorage": true,
+        "JavaScript": true,
+        "ContextAPI": true,
+        "Prop types": false,
+        "FireStorage": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Great Quotes",
+    "description": "This Great Quotes project allows its users to add their favorite quote and author to the platform, as well as comment to other user's publications. This project was created for the general public.",
+    "coming soon": false,
+    "imageURL": "../images/projects-quotes.png",
+    "technologies": [
+      {
+        "React": true,
+        "CSS": true,
+        "LocalStorage": false,
+        "JavaScript": true,
+        "ContextAPI": false,
+        "Prop types": false,
+        "FireStorage": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Vegan Restaurant",
+    "description": null,
+    "coming soon": true,
+    "imageURL": "../images/projects-coming-soon.png"
+  },
+  {
+    "id": 4,
+    "title": "Package tracker",
+    "description": null,
+    "coming soon": true,
+    "imageURL": "../images/projects-coming-soon.png"
+  },
+  {
+    "id": 5,
+    "title": "E-commerce site",
+    "description": null,
+    "coming soon": true,
+    "imageURL": "../images/projects-coming-soon.png"
+  },
+  {
+    "id": 6,
+    "title": "BBQ restaurant",
+    "description": null,
+    "coming soon": true,
+    "imageURL": "../images/projects-coming-soon.png"
+  },
+  {
+    "id": 7,
+    "title": "Learning Platform",
+    "description": null,
+    "coming soon": true,
+    "imageURL": "../images/projects-coming-soon.png"
+  },
+  {
+    "id": 8,
+    "title": "Netflix clone",
+    "description": null,
+    "coming soon": true,
+    "imageURL": "../images/projects-coming-soon.png"
+  }
+]
