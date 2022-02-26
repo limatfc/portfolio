@@ -1,6 +1,7 @@
 body,
 html {
   margin: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -23,6 +24,10 @@ h1 {
 }
 
 h2 {
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0;
   font-family: "Reenie Beanie";
   font-size: 37px;
 }
@@ -37,4 +42,7 @@ p {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1.5%;
+  text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
 }
