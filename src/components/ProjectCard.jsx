@@ -1,7 +1,7 @@
 import classes from "../styles/components/ProjectCard.module.css";
 
 export default function ProjectCard({ projectData, onClick }) {
-  const { id, title, comingSoon, imageURL } = projectData;
+  const { id, title, comingSoon, cardImageURL } = projectData;
 
   function onClickHandler() {
     if (comingSoon === true) return;
@@ -13,7 +13,7 @@ export default function ProjectCard({ projectData, onClick }) {
       {comingSoon && <span className={classes.ComingSoon}>Coming Soon</span>}
       <img
         className={`${classes.cardImage} ${comingSoon && classes.opacicity}`}
-        src={imageURL}
+        src={cardImageURL}
         alt="ilustration related to the project title."
       />
       <h3 className={classes.title}>{title}</h3>
