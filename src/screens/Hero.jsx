@@ -5,7 +5,7 @@ import classes from "../styles/screens/Hero.module.css";
 
 export default function Hero() {
   return (
-    <section className={classes.heroWrapper}>
+    <section id="hero" className={classes.heroWrapper}>
       <NavigationBar />
       <img
         className={classes.hoverImage}

@@ -2,6 +2,7 @@
   background-color: #a7cdcc;
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 .title {

@@ -1,3 +1,3 @@
 export default function Tech() {
-  return <h1>Tech</h1>;
+  return <section id="tech">Tech</section>;
 }

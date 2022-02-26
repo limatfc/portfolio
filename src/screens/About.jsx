@@ -3,7 +3,7 @@ import mainImage from "../assets/images/about-main-image.png";
 
 export default function About() {
   return (
-    <div className={classes.aboutWrapper}>
+    <section id="about" className={classes.aboutWrapper}>
       <h3 className={classes.title}>About me</h3>
       <p className={classes.paragraph}>
         Hey! My name is Thaisa, and I am a junior frontend developer. I am from
@@ -12,15 +12,15 @@ export default function About() {
         to Sweden!
       </p>
       <p className={classes.paragraph}>
-        I created this website because I am specializing in React, and would
-        love to showcase all the work I have done so far! Please, take a look
-        around my page and have a good time! I hope to see you soon.
+        I created this website to showcase all the work I have done so far!
+        Please, take a look around my page and have a good time! I hope to hear
+        from you soon.
       </p>
       <img
         className={classes.image}
         src={mainImage}
         alt="a girl excited about her computer, while hearts are comming out of it."
       />
-    </div>
+    </section>
   );
 }
