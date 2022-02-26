@@ -1,6 +1,6 @@
 import classes from "../styles/screens/ModalOverlay.module.css";
 
-export default function ModalOverlay({ onToggleModal }) {
+export default function ModalOverlay({ onToggleModal, clickedItem }) {
   return (
     <div role="dialog">
       <div className={classes.backdrop} onClick={() => onToggleModal()}></div>
