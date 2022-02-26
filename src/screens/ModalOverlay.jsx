@@ -26,10 +26,10 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
         <h2>{title}</h2>
         <p>{description}</p>
         {pillLabel}
-        <a rel="noreferrer" href={gitLink} target="_blank">
+        <a rel="noreferrer" href={repositoryLink} target="_blank">
           Visit website / app
         </a>
-        <a rel="noreferrer" href={repositoryLink} target="_blank">
+        <a rel="noreferrer" href={gitLink} target="_blank">
           Git repository
         </a>
       </section>
