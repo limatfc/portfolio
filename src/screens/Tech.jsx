@@ -4,7 +4,7 @@ import techDataFunction from "../data/tech";
 export default function Tech() {
   const techData = techDataFunction();
 
-  const render = techData.map((item) => {
+  const technologies = techData.map((item) => {
     return (
       <span key={item.heading} className={classes.iconWrapper}>
         {item.component}
@@ -20,7 +20,7 @@ export default function Tech() {
         Here are the technologies that I already know, and also the ones I am
         learning:
       </p>
-      <div className={classes.allIconsWrapper}>{render}</div>
+      <div className={classes.allIconsWrapper}>{technologies}</div>
     </section>
   );
 }
