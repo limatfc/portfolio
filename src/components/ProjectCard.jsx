@@ -10,7 +10,6 @@ export default function ProjectCard({ projectData, onClick }) {
 
   return (
     <div onClick={onClickHandler} className={classes.cardWrapper}>
-      {comingSoon && <span className={classes.ComingSoon}>Coming Soon</span>}
       <img
         className={`${classes.cardImage} ${comingSoon && classes.opacicity}`}
         src={cardImageURL}
