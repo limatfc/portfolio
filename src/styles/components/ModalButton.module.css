@@ -1,0 +1,13 @@
+.linkButton {
+  height: 70px;
+  min-width: 90%;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Reenie Beanie";
+  font-size: 28px;
+  align-self: center;
+}

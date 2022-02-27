@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Modal from "../components/Modal";
+import { useSetScroll } from "../scripts/use-set-scroll";
+import Modal from "../scripts/modal";
 import ProjectCard from "../components/ProjectCard";
 import classes from "../styles/screens/Projects.module.css";
 import projectsData from "../data/projects.json";
@@ -7,6 +8,8 @@ import projectsData from "../data/projects.json";
 export default function Projects() {
   const [showModal, setShowModal] = useState(false);
   const [clickedItem, setClickedItem] = useState([]);
+
+  useSetScroll(showModal);
 
   const cards = projectsData.map((item) => (
     <ProjectCard
@@ -34,9 +37,11 @@ export default function Projects() {
         making during the Novare Intensive FrontEnd Course.
       </p>
       <div className={classes.allCardsWrapper}>{cards}</div>
-      {showModal && (
-        <Modal clickedItem={clickedItem} onToggleModal={onToggleModal} />
-      )}
+      <Modal
+        showModal={showModal}
+        clickedItem={clickedItem}
+        onToggleModal={onToggleModal}
+      />
     </section>
   );
 }

@@ -9,11 +9,63 @@
 }
 
 .modalWrapper {
+  position: fixed;
   left: 2%;
   top: 2%;
   z-index: 20;
-  width: 40%;
-  height: 40%;
-  position: fixed;
-  background-color: white;
+  height: 95%;
+  width: 95%;
+  background-color: #a7cdcc;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalImage {
+  width: 100%;
+  height: 35%;
+}
+
+.closeButton {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  align-self: flex-end;
+  text-align: center;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  padding-top: 14px;
+}
+
+.pillsWrapper {
+  display: flex;
+  max-width: fit-content;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+
+.pills {
+  font-family: "Reenie Beanie";
+  font-size: 28px;
+  padding: 8px;
+  border-color: black;
+  border-style: solid;
+  margin: 8px;
+  border-radius: 100px;
+}
+
+.hostingButton {
+  background-color: #daa860;
+}
+
+.gitButton {
+  background-color: transparent;
+  margin-top: 8px;
 }
