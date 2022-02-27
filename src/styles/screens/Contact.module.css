@@ -1,0 +1,33 @@
+.techWrapper {
+  background-color: #e8becc;
+  padding-top: 60px;
+}
+
+.labelWrapper {
+  padding-left: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.labelText {
+  font-family: "Architects Daughter";
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.5%;
+  text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.socialMediaWrapper {
+  margin-top: 16px;
+  background-color: #daa860;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

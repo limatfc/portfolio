@@ -1,0 +1,18 @@
+.personalInformationIcons {
+  width: 20px;
+  height: 20px;
+}
+
+.socialMediaIcons {
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+
+  color: black;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  padding: 17.5px;
+}
