@@ -1,0 +1,37 @@
+.techWrapper {
+  background-color: #a7cdcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.allIconsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 16px;
+  margin-right: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconWrapper {
+  width: fit-content;
+  max-width: 90px;
+  padding: 8px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconComponent {
+  vertical-align: middle;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  margin: 8px;
+}
+
+.h3 {
+  text-align: center;
+}
