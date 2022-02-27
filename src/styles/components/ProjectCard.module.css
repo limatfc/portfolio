@@ -20,7 +20,8 @@
 }
 
 .title {
-  text-align: center;
+  width: 100%;
+  text-align: start;
   padding-top: 8px;
 }
 
