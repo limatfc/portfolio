@@ -1,0 +1,26 @@
+[
+  {
+    "label": "LinkedIn",
+    "classStyle": "fa-brands fa-linkedin"
+  },
+  {
+    "label": "GitHub",
+    "classStyle": ""
+  },
+  {
+    "label": "Instagram",
+    "classStyle": ""
+  },
+  {
+    "label": "Telephone",
+    "classStyle": ""
+  },
+  {
+    "label": "Location",
+    "classStyle": ""
+  },
+  {
+    "label": "email",
+    "classStyle": ""
+  }
+]

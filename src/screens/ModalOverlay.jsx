@@ -1,3 +1,4 @@
+import ModalButton from "../components/ModalButton";
 import classes from "../styles/screens/ModalOverlay.module.css";
 
 export default function ModalOverlay({ onToggleModal, clickedItem }) {
@@ -7,33 +8,41 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
     modalImageURL,
     technologiesUsed,
     gitLink,
-    repositoryLink,
+    hostingLink,
   } = clickedItem;
 
   const pillLabel = technologiesUsed.map((item) => (
-    <span key={Math.random() * 100}>{item}</span>
+    <span className={classes.pills} key={Math.random() * 100}>
+      {item}
+    </span>
   ));
 
   return (
-    <div>
-      <button>x</button>
-      <div
-        className={classes.backdrop}
-        role="dialog"
-        onClick={() => onToggleModal()}
-      ></div>
-      <section className={classes.modalWrapper}>
-        <img src={modalImageURL} alt={`Screenshot of the ${title} website.`} />
-        <h2>{title}</h2>
+    <>
+      <div className={classes.backdrop} onClick={() => onToggleModal()}></div>
+      <div className={classes.modalWrapper}>
+        <button className={classes.closeButton} onClick={() => onToggleModal()}>
+          x
+        </button>
+        <img
+          className={classes.modalImage}
+          src={modalImageURL}
+          alt={`Screenshot of the ${title} website.`}
+        />
+        <h2 className={classes.title}>{title}</h2>
         <p>{description}</p>
-        {pillLabel}
-        <a rel="noreferrer" href={repositoryLink} target="_blank">
-          Visit website / app
-        </a>
-        <a rel="noreferrer" href={gitLink} target="_blank">
-          Git repository
-        </a>
-      </section>
-    </div>
+        <div className={classes.pillsWrapper}>{pillLabel}</div>
+        <ModalButton
+          link={hostingLink}
+          label={"Visit website / app"}
+          style={classes.hostingButton}
+        />
+        <ModalButton
+          link={gitLink}
+          label={"Git repository"}
+          style={classes.gitButton}
+        />
+      </div>
+    </>
   );
 }
