@@ -32,7 +32,7 @@ export default function Projects() {
   return (
     <section id="projects" className={classes.projectsWrapper}>
       <h2>Projects</h2>
-      <p>
+      <p className={classes.paragraph}>
         Here are the projects I have done so far, plus a few I am going to be
         making during the Novare Intensive FrontEnd Course.
       </p>

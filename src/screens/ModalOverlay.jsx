@@ -1,4 +1,5 @@
 import ModalButton from "../components/ModalButton";
+import ModalPills from "../components/ModalPills";
 import classes from "../styles/screens/ModalOverlay.module.css";
 
 export default function ModalOverlay({ onToggleModal, clickedItem }) {
@@ -7,16 +8,11 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
     description,
     modalImageURL,
     technologiesUsed,
+    technologiesNotUsed,
     gitLink,
     hostingLink,
   } = clickedItem;
-
-  const pillLabel = technologiesUsed.map((item) => (
-    <span className={classes.pills} key={Math.random() * 100}>
-      {item}
-    </span>
-  ));
-
+  console.log(technologiesUsed);
   return (
     <>
       <div className={classes.backdrop} onClick={() => onToggleModal()}></div>
@@ -30,8 +26,14 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
           alt={`Screenshot of the ${title} website.`}
         />
         <h2 className={classes.title}>{title}</h2>
-        <p>{description}</p>
-        <div className={classes.pillsWrapper}>{pillLabel}</div>
+        <p className={classes.paragraph}>{description}</p>
+        <div className={classes.pillsWrapper}>
+          <ModalPills pillDataArray={technologiesUsed} />
+          <ModalPills
+            pillDataArray={technologiesNotUsed}
+            style={classes.notUsedPills}
+          />
+        </div>
         <ModalButton
           link={hostingLink}
           label={"Visit website / app"}

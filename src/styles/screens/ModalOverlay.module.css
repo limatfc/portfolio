@@ -52,16 +52,9 @@
   margin-bottom: 16px;
 }
 
-.pills {
-  font-family: "Reenie Beanie";
-  font-size: 28px;
-  padding: 8px;
-  border-color: black;
-  border-style: solid;
-  margin: 8px;
-  border-radius: 100px;
+.notUsedPills {
+  display: none;
 }
-
 .hostingButton {
   background-color: #daa860;
 }
@@ -69,4 +62,48 @@
 .gitButton {
   background-color: transparent;
   margin-top: 8px;
+}
+
+@media (min-width: 1200px) {
+  .modalWrapper {
+    display: block;
+    height: 70%;
+    top: 15%;
+  }
+  .modalImage {
+    width: 63%;
+    height: 80%;
+    margin-top: 5%;
+    float: left;
+    padding-bottom: 20%;
+  }
+  .notUsedPills {
+    display: block;
+    opacity: 0.2;
+  }
+  .paragraph {
+    margin-left: 60%;
+    margin-top: 2%;
+  }
+  .pillsWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .notUsedPillsWrapper {
+    display: flex;
+    max-width: fit-content;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+  }
+  .title {
+    margin-left: 60%;
+    margin-top: 1%;
+  }
+  .closeButton {
+    position: relative;
+    float: right;
+    padding-top: 3%;
+  }
 }

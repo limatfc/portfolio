@@ -21,3 +21,16 @@
 .text {
   text-align: center;
 }
+
+@media (min-width: 1200px) {
+  .heroWrapper {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+  .welcomeImage {
+    height: 20%;
+  }
+  .mainImage {
+    height: 37%;
+  }
+}

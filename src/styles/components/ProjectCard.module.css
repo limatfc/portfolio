@@ -1,6 +1,5 @@
 .cardWrapper {
   width: 45%;
-
   margin: 2%;
   background-color: #daa860;
   display: flex;
@@ -19,4 +18,10 @@
   width: 100%;
   text-align: start;
   padding-top: 8px;
+}
+
+@media (min-width: 1200px) {
+  .cardWrapper {
+    max-width: 28%;
+  }
 }
