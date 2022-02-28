@@ -1,6 +1,6 @@
 import NavigationBar from "../components/NavigationBar";
 import heroMainImage from "../assets/images/hero-main-image.png";
-import heroHoverImage from "../assets/images/hero-hover-image.png";
+import heroWelcomeImage from "../assets/images/hero-welcome-image.png";
 import classes from "../styles/screens/Hero.module.css";
 
 export default function Hero() {
@@ -8,8 +8,8 @@ export default function Hero() {
     <section id="hero" className={classes.heroWrapper}>
       <NavigationBar />
       <img
-        className={classes.hoverImage}
-        src={heroHoverImage}
+        className={classes.welcomeImage}
+        src={heroWelcomeImage}
         alt="welcome written inside a black frame. The frame is hanging from a nail."
       />
       <img

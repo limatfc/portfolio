@@ -10,6 +10,7 @@
 
 .modalWrapper {
   position: fixed;
+  overflow: auto;
   left: 2%;
   top: 2%;
   z-index: 20;

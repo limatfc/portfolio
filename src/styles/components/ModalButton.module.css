@@ -1,5 +1,6 @@
 .linkButton {
   height: 70px;
+  min-height: 50px;
   min-width: 90%;
   border-style: solid;
   border-color: black;

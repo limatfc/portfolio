@@ -1,12 +1,12 @@
 .cardWrapper {
   width: 45%;
-  min-height: 174px;
+
   margin: 2%;
   background-color: #daa860;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-grow: 1;
 }
 
@@ -15,18 +15,8 @@
   height: 110px;
 }
 
-.opacicity {
-  opacity: 0.2;
-}
-
 .title {
   width: 100%;
   text-align: start;
   padding-top: 8px;
-}
-
-.ComingSoon {
-  position: absolute;
-  font-size: 25px;
-  font-family: "Architects Daughter";
 }
