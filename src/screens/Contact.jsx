@@ -1,12 +1,9 @@
 import classes from "../styles/screens/Contact.module.css";
 
-import personalInfomationDataFunction from "../data/contact-personal-information";
-import socialMediaDataFunction from "../data/contact-social-media";
+import { personalInformationData } from "../data/contact-personal-information";
+import { socialMediaData } from "../data/contact-social-media";
 
 export default function Contact() {
-  const personalInformationData = personalInfomationDataFunction();
-  const socialMediaData = socialMediaDataFunction();
-
   const personalInformation = personalInformationData.map((item) => (
     <div key={item.label} className={classes.personalInformationWrapper}>
       <span>{item.component}</span>
