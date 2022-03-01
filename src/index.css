@@ -49,18 +49,18 @@ p {
 
 @media (min-width: 1200px) {
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   h2 {
-    font-size: 60px;
+    font-size: 50px;
     padding-left: 48px;
     padding-right: 48px;
   }
   h3 {
-    font-size: 45px;
+    font-size: 35px;
   }
   p {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 30px;
     letter-spacing: 2.5%;
     text-align: justify;

@@ -1,11 +1,11 @@
-.techWrapper {
+.contactWrapper {
   background-color: #e8becc;
   padding-top: 60px;
 }
 
-.labelWrapper {
+.personalInformationWrapper {
   padding-left: 16px;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -23,11 +23,41 @@
 }
 
 .socialMediaWrapper {
-  margin-top: 60px;
   background-color: #daa860;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footerText {
+  font-family: "Architects Daughter";
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.5%;
+}
+
+@media (min-width: 1200px) {
+  .contactWrapper {
+    padding: 10%;
+    min-height: 250px;
+  }
+  .paragraph {
+    width: 30%;
+    float: left;
+  }
+  .personalInformationWrapper {
+    float: right;
+    margin-top: 22px;
+  }
+  .socialMediaWrapper {
+    width: 100%;
+  }
+  .personalInformationWrapper {
+    width: 50%;
+  }
+  .labelText {
+    font-size: 22px;
+  }
 }

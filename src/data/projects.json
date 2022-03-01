@@ -14,14 +14,6 @@
       "LocalStorage",
       "JavaScript",
       "ContextAPI"
-    ],
-    "technologiesNotUsed": [
-      "Recoil",
-      "Prop types",
-      "FireStorage",
-      "TypeScript",
-      "CloudStorage",
-      "FireAuth"
     ]
   },
   {
@@ -33,16 +25,7 @@
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-quotes.png?raw=true",
     "gitLink": "https://github.com/limatfc/greatQuotes",
     "hostingLink": "https://greatquotes-e7108.web.app/quotes",
-    "technologiesUsed": ["React", "CSS", "JavaScript", "FireStorage"],
-    "technologiesNotUsed": [
-      "Recoil",
-      "Prop types",
-      "TypeScript",
-      "CloudStorage",
-      "FireAuth",
-      "ContextAPI",
-      "LocalStorage"
-    ]
+    "technologiesUsed": ["React", "CSS", "JavaScript", "FireStorage"]
   },
   {
     "id": 3,

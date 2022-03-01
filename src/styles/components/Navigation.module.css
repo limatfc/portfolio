@@ -16,6 +16,7 @@
 .logo {
   height: auto;
   height: 60px;
+  cursor: pointer;
 }
 
 .linkLike {
@@ -46,6 +47,7 @@
     font-family: "Reenie Beanie";
     font-size: 40px;
     padding-left: 8px;
+    cursor: pointer;
   }
   .linkLike {
     font-size: 45px;

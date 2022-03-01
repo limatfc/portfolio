@@ -36,3 +36,17 @@
 .h3 {
   text-align: center;
 }
+
+@media (min-width: 1200px) {
+  .techWrapper {
+    padding: 10%;
+  }
+  .paragraph {
+    float: left;
+    width: 30%;
+  }
+  .iconWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

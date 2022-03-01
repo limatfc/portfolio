@@ -51,17 +51,14 @@
   margin-right: 10px;
   margin-bottom: 16px;
 }
-
-.notUsedPills {
-  display: none;
-}
-.hostingButton {
-  background-color: #daa860;
-}
-
-.gitButton {
-  background-color: transparent;
-  margin-top: 8px;
+.pills {
+  font-family: "Reenie Beanie";
+  font-size: 28px;
+  padding: 8px;
+  border-color: black;
+  border-style: solid;
+  margin: 8px;
+  border-radius: 100px;
 }
 
 @media (min-width: 1200px) {
@@ -71,35 +68,28 @@
     top: 15%;
   }
   .modalImage {
-    width: 63%;
-    height: 80%;
-    margin-top: 5%;
+    width: 55%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
     float: left;
-    padding-bottom: 20%;
   }
-  .notUsedPills {
-    display: block;
-    opacity: 0.2;
-  }
+
   .paragraph {
-    margin-left: 60%;
-    margin-top: 2%;
+    margin-left: 53%;
+    margin-bottom: 0;
   }
   .pillsWrapper {
     display: flex;
     flex-direction: row;
+    padding-left: 1%;
   }
-  .notUsedPillsWrapper {
-    display: flex;
-    max-width: fit-content;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 16px;
+  .pills {
+    margin: 3px;
   }
   .title {
-    margin-left: 60%;
-    margin-top: 1%;
+    margin-left: 53%;
   }
   .closeButton {
     position: relative;

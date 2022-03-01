@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: start;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 .cardImage {
@@ -23,5 +24,9 @@
 @media (min-width: 1200px) {
   .cardWrapper {
     max-width: 28%;
+    min-height: 188px;
+  }
+  .title {
+    margin-left: 5%;
   }
 }

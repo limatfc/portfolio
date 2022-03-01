@@ -32,7 +32,7 @@
   .paragraph {
     -webkit-order: 1;
     order: 1;
-    width: 50%;
+    width: 45%;
     float: left;
   }
 

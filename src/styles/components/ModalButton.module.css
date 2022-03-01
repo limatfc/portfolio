@@ -14,10 +14,19 @@
   color: black;
 }
 
+.hostingButton {
+  background-color: #daa860;
+}
+
+.gitButton {
+  background-color: transparent;
+  margin-top: 8px;
+}
+
 @media (min-width: 1200px) {
   .linkButton {
-    min-width: 32.5%;
-    max-width: 32.5%;
+    min-width: 39%;
+    max-width: 39%;
     float: right;
     display: flex;
     justify-content: center;

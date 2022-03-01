@@ -16,7 +16,7 @@ export default function Tech() {
   return (
     <section id="tech" className={classes.techWrapper}>
       <h2>Tech</h2>
-      <p>
+      <p className={classes.paragraph}>
         Here are the technologies that I already know, and also the ones I am
         learning:
       </p>
