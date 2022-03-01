@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSetScroll } from "../scripts/use-set-scroll";
-import Modal from "../scripts/modal";
+import Modal from "../components/Modal";
 import ProjectCard from "../components/ProjectCard";
 import classes from "../styles/screens/Projects.module.css";
 import projectsData from "../data/projects.json";
