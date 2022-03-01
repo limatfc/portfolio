@@ -4,6 +4,7 @@
     "title": "To do list",
     "description": "This EIKA to do list project allows its users to add products and their prices to a shopping list, and allows users to save the list even after the webapp is closed. This project was created for EIKA's clients.",
     "comingSoon": false,
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modai-todo-list.png?raw=true",
     "gitLink": "https://github.com/limatfc/ikeaShoppingList",
@@ -21,6 +22,7 @@
     "title": "Great Quotes",
     "description": "This Great Quotes project allows its users to add their favorite quote and author to the platform, as well as comment to other user's publications. This project was created for the general public.",
     "comingSoon": false,
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-quotes.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-quotes.png?raw=true",
     "gitLink": "https://github.com/limatfc/greatQuotes",
@@ -31,36 +33,66 @@
     "id": 3,
     "title": "Vegan Restaurant",
     "comingSoon": true,
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
+    "cardImageURL": "",
+    "modalImageURL": "",
+    "gitLink": "",
+    "hostingLink": "",
+    "technologiesUsed": []
   },
   {
     "id": 4,
     "title": "Package tracker",
     "comingSoon": true,
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
+    "cardImageURL": "",
+    "modalImageURL": "",
+    "gitLink": "",
+    "hostingLink": "",
+    "technologiesUsed": []
   },
   {
     "id": 5,
     "title": "E-commerce site",
     "comingSoon": true,
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
+    "cardImageURL": "",
+    "modalImageURL": "",
+    "gitLink": "",
+    "hostingLink": "",
+    "technologiesUsed": []
   },
   {
     "id": 6,
     "title": "BBQ restaurant",
     "comingSoon": true,
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
+    "cardImageURL": "",
+    "modalImageURL": "",
+    "gitLink": "",
+    "hostingLink": "",
+    "technologiesUsed": []
   },
   {
     "id": 7,
     "title": "Learning Platform",
     "comingSoon": true,
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
+    "cardImageURL": "",
+    "modalImageURL": "",
+    "gitLink": "",
+    "hostingLink": "",
+    "technologiesUsed": []
   },
   {
     "id": 8,
     "title": "Netflix clone",
     "comingSoon": true,
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true"
+    "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
+    "cardImageURL": "",
+    "modalImageURL": "",
+    "gitLink": "",
+    "hostingLink": "",
+    "technologiesUsed": []
   }
 ]
