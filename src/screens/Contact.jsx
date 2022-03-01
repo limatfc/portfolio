@@ -7,7 +7,7 @@ export default function Contact() {
   const personalInformation = personalInformationData.map((item) => (
     <div key={item.label} className={classes.personalInformationWrapper}>
       <span>{item.component}</span>
-      <label className={classes.labelText}>{item.label}</label>
+      <span className={classes.labelText}>{item.label}</span>
     </div>
   ));
 

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useSetScroll } from "../scripts/use-set-scroll";
-import Modal from "../scripts/modal";
 import ProjectCard from "../components/ProjectCard";
-import classes from "../styles/screens/Projects.module.css";
 import projectsData from "../data/projects.json";
+import Modal from "../scripts/modal";
+import classes from "../styles/screens/Projects.module.css";
 
 export default function Projects() {
   const [showModal, setShowModal] = useState(false);
