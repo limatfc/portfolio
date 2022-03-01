@@ -8,7 +8,7 @@ export default function Contact() {
   const socialMediaData = socialMediaDataFunction();
 
   const personalInformation = personalInformationData.map((item) => (
-    <div key={item.label} className={classes.labelWrapper}>
+    <div key={item.label} className={classes.personalInformationWrapper}>
       <span>{item.component}</span>
       <label className={classes.labelText}>{item.label}</label>
     </div>
@@ -21,17 +21,19 @@ export default function Contact() {
   ));
 
   return (
-    <section className={classes.techWrapper} id="contact">
-      <h2>Contact</h2>
-      <p>
-        Here is my contact information, in case you want to have some coffee and
-        discuss any of my projects.
-      </p>
-      {personalInformation}
+    <>
+      <section className={classes.contactWrapper} id="contact">
+        <h2>Contact</h2>
+        <p className={classes.paragraph}>
+          Here is my contact information, in case you want to have some coffee
+          and discuss any of my projects.
+        </p>
+        {personalInformation}
+      </section>
       <div className={classes.socialMediaWrapper}>
         <span>{socialMedia}</span>
-        <span>@2022 - Thaisa Lima</span>
+        <span className={classes.footerText}>@2022 - Thaisa Lima</span>
       </div>
-    </section>
+    </>
   );
 }

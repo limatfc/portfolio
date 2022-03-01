@@ -11,8 +11,8 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
     hostingLink,
   } = clickedItem;
 
-  const pillLabel = technologiesUsed.map((item) => (
-    <span className={classes.pills} key={Math.random() * 100}>
+  const pillsContent = technologiesUsed.map((item) => (
+    <span className={classes.pills} key={item}>
       {item}
     </span>
   ));
@@ -30,18 +30,10 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
           alt={`Screenshot of the ${title} website.`}
         />
         <h2 className={classes.title}>{title}</h2>
-        <p>{description}</p>
-        <div className={classes.pillsWrapper}>{pillLabel}</div>
-        <ModalButton
-          link={hostingLink}
-          label={"Visit website / app"}
-          style={classes.hostingButton}
-        />
-        <ModalButton
-          link={gitLink}
-          label={"Git repository"}
-          style={classes.gitButton}
-        />
+        <p className={classes.paragraph}>{description}</p>
+        <div className={classes.pillsWrapper}>{pillsContent}</div>
+        <ModalButton link={hostingLink} label={"Visit website / app"} />
+        <ModalButton link={gitLink} label={"Git repository"} />
       </div>
     </>
   );

@@ -11,4 +11,26 @@
   font-family: "Reenie Beanie";
   font-size: 28px;
   align-self: center;
+  color: black;
+}
+
+.hostingButton {
+  background-color: #daa860;
+}
+
+.gitButton {
+  background-color: transparent;
+  margin-top: 8px;
+}
+
+@media (min-width: 1200px) {
+  .linkButton {
+    min-width: 39%;
+    max-width: 39%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+  }
 }

@@ -12,3 +12,19 @@
   margin-left: 24px;
   margin-right: 24px;
 }
+
+@media (min-width: 1200px) {
+  .projectsWrapper {
+    padding: 10%;
+    padding-right: 8%;
+  }
+  .allCardsWrapper {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .paragraph {
+    width: 30%;
+    float: left;
+  }
+}

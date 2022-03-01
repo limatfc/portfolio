@@ -5,18 +5,23 @@ import classes from "../styles/components/Navigation.module.css";
 export default function NavigationBar() {
   return (
     <nav className={classes.navigationBarWrapper}>
-      <Link to="about" smooth={true} className={classes.linkLike}>
+      <Link
+        to="about"
+        smooth={true}
+        className={`${classes.linkLike} ${classes.aboutMargin}`}
+      >
         About
       </Link>
       <Link to="projects" smooth={true} className={classes.linkLike}>
         Projects
       </Link>
-      <Link to="hero" smooth={true}>
+      <Link to="hero" smooth={true} className={classes.logoWrapper}>
         <img
           className={classes.logo}
           src={navigationBarLogo}
           alt="a logo containing an address book in the middle and Thaisa Lima written under it. It is wrapped in a blue frame."
         />
+        <span className={classes.logoText}>Thaisa Lima</span>
       </Link>
       <Link to="tech" smooth={true} className={classes.linkLike}>
         Tech

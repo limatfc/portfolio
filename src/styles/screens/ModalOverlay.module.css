@@ -51,7 +51,6 @@
   margin-right: 10px;
   margin-bottom: 16px;
 }
-
 .pills {
   font-family: "Reenie Beanie";
   font-size: 28px;
@@ -62,11 +61,39 @@
   border-radius: 100px;
 }
 
-.hostingButton {
-  background-color: #daa860;
-}
+@media (min-width: 1200px) {
+  .modalWrapper {
+    display: block;
+    height: 70%;
+    top: 15%;
+  }
+  .modalImage {
+    width: 55%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    float: left;
+  }
 
-.gitButton {
-  background-color: transparent;
-  margin-top: 8px;
+  .paragraph {
+    margin-left: 53%;
+    margin-bottom: 0;
+  }
+  .pillsWrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+  }
+  .pills {
+    margin: 3px;
+  }
+  .title {
+    margin-left: 53%;
+  }
+  .closeButton {
+    position: relative;
+    float: right;
+    padding-top: 3%;
+  }
 }

@@ -10,15 +10,51 @@
   top: 0;
   margin: 0;
 }
-
+.logoText {
+  display: none;
+}
 .logo {
   height: auto;
   height: 60px;
+  cursor: pointer;
 }
+
 .linkLike {
   background: none;
   border: none;
   cursor: pointer;
   font-family: "Reenie Beanie";
   font-size: 28px;
+}
+
+@media (min-width: 1200px) {
+  .navigationBarWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .logoWrapper {
+    -webkit-order: 0;
+    order: 0;
+  }
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoText {
+    display: block;
+    font-family: "Reenie Beanie";
+    font-size: 40px;
+    padding-left: 8px;
+    cursor: pointer;
+  }
+  .linkLike {
+    font-size: 45px;
+    -webkit-order: 0;
+    order: 1;
+  }
+  .aboutMargin {
+    margin-left: 33%;
+  }
 }

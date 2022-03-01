@@ -8,9 +8,43 @@
 
 .paragraph {
   margin-bottom: 0;
+  -webkit-order: 2;
+  order: 2;
 }
 
 .image {
   width: 80%;
   align-self: center;
+  -webkit-order: 0;
+  order: 0;
+}
+
+.title {
+  -webkit-order: 1;
+  order: 1;
+}
+
+@media (min-width: 1200px) {
+  .aboutWrapper {
+    display: block;
+    padding: 10%;
+  }
+  .paragraph {
+    -webkit-order: 1;
+    order: 1;
+    width: 45%;
+    float: left;
+  }
+
+  .image {
+    width: 40%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .title {
+    -webkit-order: 0;
+    order: 0;
+    width: 100%;
+  }
 }
