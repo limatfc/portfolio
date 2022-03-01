@@ -11,11 +11,11 @@ export default function Projects() {
 
   useSetScroll(showModal);
 
-  const cards = projectsData.map((item) => (
+  const projectCards = projectsData.map((item) => (
     <ProjectCard
       key={item.id}
       projectData={item}
-      onClick={onProjectCardClick}
+      onProjectCardClick={onProjectCardClick}
     />
   ));
 
@@ -36,7 +36,7 @@ export default function Projects() {
         Here are the projects I have done so far, plus a few I am going to be
         making during the Novare Intensive FrontEnd Course.
       </p>
-      <div className={classes.allCardsWrapper}>{cards}</div>
+      <div className={classes.allCardsWrapper}>{projectCards}</div>
       <Modal
         showModal={showModal}
         clickedItem={clickedItem}

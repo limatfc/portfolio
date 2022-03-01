@@ -1,17 +1,17 @@
 import classes from "../styles/screens/Contact.module.css";
 
-import { personalInformationData } from "../data/contact-personal-information";
+import { personalData } from "../data/contact-personal";
 import { socialMediaData } from "../data/contact-social-media";
 
 export default function Contact() {
-  const personalInformation = personalInformationData.map((item) => (
+  const personalInformation = personalData.map((item) => (
     <div key={item.label} className={classes.personalInformationWrapper}>
       <span>{item.component}</span>
       <span className={classes.labelText}>{item.label}</span>
     </div>
   ));
 
-  const socialMedia = socialMediaData.map((item) => (
+  const socialMediaInformation = socialMediaData.map((item) => (
     <a key={item.link} href={item.link} target="_blank" rel="noreferrer">
       {item.component}
     </a>
@@ -28,7 +28,7 @@ export default function Contact() {
         {personalInformation}
       </section>
       <div className={classes.socialMediaWrapper}>
-        <span>{socialMedia}</span>
+        <span>{socialMediaInformation}</span>
         <span className={classes.footerText}>@2022 - Thaisa Lima</span>
       </div>
     </>

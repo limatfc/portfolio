@@ -2,7 +2,7 @@ import classes from "../styles/screens/Tech.module.css";
 import { techData } from "../data/tech";
 
 export default function Tech() {
-  const technologies = techData.map((item) => {
+  const technologySymbol = techData.map((item) => {
     return (
       <span key={item.heading} className={classes.iconWrapper}>
         {item.component}
@@ -18,7 +18,7 @@ export default function Tech() {
         Here are the technologies that I already know, and also the ones I am
         learning:
       </p>
-      <div className={classes.allIconsWrapper}>{technologies}</div>
+      <div className={classes.allIconsWrapper}>{technologySymbol}</div>
     </section>
   );
 }

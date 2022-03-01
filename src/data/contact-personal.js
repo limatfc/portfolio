@@ -3,7 +3,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 import classes from "../styles/data/ContactIcons.module.css";
 
-export const personalInformationData = [
+export const personalData = [
   {
     component: (
       <BsFillTelephoneInboundFill

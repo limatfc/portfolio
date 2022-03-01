@@ -23,7 +23,7 @@
 
 @media (min-width: 1200px) {
   .cardWrapper {
-    max-width: 28%;
+    max-width: 150px;
     min-height: 188px;
   }
   .title {

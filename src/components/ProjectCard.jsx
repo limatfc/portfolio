@@ -1,12 +1,12 @@
 import classes from "../styles/components/ProjectCard.module.css";
 
-export default function ProjectCard({ projectData, onClick }) {
+export default function ProjectCard({ projectData, onProjectCardClick }) {
   const { id, title, comingSoon, cardImageComingSoonURL, cardImageURL } =
     projectData;
 
   function onClickHandler() {
     if (comingSoon === true) return;
-    onClick(id);
+    onProjectCardClick(id);
   }
 
   let displayedImage = "";
