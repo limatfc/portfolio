@@ -1,9 +1,7 @@
 import classes from "../styles/screens/Tech.module.css";
-import techDataFunction from "../data/tech";
+import { techData } from "../data/tech";
 
 export default function Tech() {
-  const techData = techDataFunction();
-
   const technologies = techData.map((item) => {
     return (
       <span key={item.heading} className={classes.iconWrapper}>

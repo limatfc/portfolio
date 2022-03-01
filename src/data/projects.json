@@ -32,67 +32,113 @@
   {
     "id": 3,
     "title": "Vegan Restaurant",
-    "comingSoon": false,
+    "description": "This project allows to further develop clean code practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
+    "comingSoon": true,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
-    "gitLink": "",
-    "hostingLink": "",
-    "technologiesUsed": []
+    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "technologiesUsed": ["React", "CSS", "JavaScript", "Recoil"]
   },
   {
     "id": 4,
     "title": "Package tracker",
-    "comingSoon": false,
+    "description": "A project where they switch from a static JSON file to a real API call to obtain and present data from a server.",
+    "comingSoon": true,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
-    "gitLink": "",
-    "hostingLink": "",
-    "technologiesUsed": []
+    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "technologiesUsed": [
+      "JavaScript",
+      "React",
+      "ContextAPI",
+      "Prop types",
+      "FireStorage"
+    ]
   },
   {
     "id": 5,
     "title": "E-commerce site",
+    "description": "Practice Test Driven Development testing techniques on a project that every developer is familiar with, so the student focuses on learning unit testing without pressure.",
     "comingSoon": true,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "",
-    "modalImageURL": "",
-    "gitLink": "",
-    "hostingLink": "",
-    "technologiesUsed": []
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-ecommerce.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-ecommerce.png?raw=true",
+    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "technologiesUsed": [
+      "Unit testing",
+      "JavaScript",
+      "React",
+      "ContextAPI",
+      "Prop types",
+      "FireStorage"
+    ]
   },
   {
     "id": 6,
     "title": "BBQ restaurant",
-    "comingSoon": false,
+    "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects.",
+    "comingSoon": true,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-bbq-restaurant.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-bbq-restaurant.png?raw=true",
-    "gitLink": "",
-    "hostingLink": "",
-    "technologiesUsed": []
+    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "technologiesUsed": [
+      "Unit testing",
+      "JavaScript",
+      "React",
+      "ContextAPI",
+      "Prop types",
+      "FireStorage"
+    ]
   },
   {
     "id": 7,
     "title": "Learning Platform",
-    "comingSoon": false,
+    "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features.",
+    "comingSoon": true,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-learning-platfom.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-learning-platfom.png?raw=true",
-    "gitLink": "",
-    "hostingLink": "",
-    "technologiesUsed": []
+    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "technologiesUsed": [
+      "Unit testing",
+      "JavaScript",
+      "React",
+      "ContextAPI",
+      "Prop types",
+      "CloudStorage",
+      "TyoeScript",
+      "FireAuth"
+    ]
   },
   {
     "id": 8,
     "title": "Netflix clone",
+    "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience.",
     "comingSoon": true,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "",
-    "modalImageURL": "",
-    "gitLink": "",
-    "hostingLink": "",
-    "technologiesUsed": []
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-netflix.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-netflix.png?raw=true",
+    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "technologiesUsed": [
+      "Unit testing",
+      "JavaScript",
+      "React",
+      "ContextAPI",
+      "Prop types",
+      "CloudStorage",
+      "TypeScript",
+      "FireAuth",
+      "CSS",
+      "LocalStorage"
+    ]
   }
 ]
