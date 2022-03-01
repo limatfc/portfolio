@@ -32,10 +32,10 @@
   {
     "id": 3,
     "title": "Vegan Restaurant",
-    "comingSoon": true,
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "",
-    "modalImageURL": "",
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
     "gitLink": "",
     "hostingLink": "",
     "technologiesUsed": []
@@ -43,10 +43,10 @@
   {
     "id": 4,
     "title": "Package tracker",
-    "comingSoon": true,
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "",
-    "modalImageURL": "",
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
     "gitLink": "",
     "hostingLink": "",
     "technologiesUsed": []
@@ -65,10 +65,10 @@
   {
     "id": 6,
     "title": "BBQ restaurant",
-    "comingSoon": true,
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "",
-    "modalImageURL": "",
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-bbq-restaurant.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-bbq-restaurant.png?raw=true",
     "gitLink": "",
     "hostingLink": "",
     "technologiesUsed": []
@@ -76,10 +76,10 @@
   {
     "id": 7,
     "title": "Learning Platform",
-    "comingSoon": true,
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "",
-    "modalImageURL": "",
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-learning-platfom.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-learning-platfom.png?raw=true",
     "gitLink": "",
     "hostingLink": "",
     "technologiesUsed": []
