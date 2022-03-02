@@ -67,13 +67,17 @@
   display: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .modalWrapper {
     display: block;
     height: 80%;
     top: 10%;
   }
   .modalImage {
+    width: 100%;
+    height: auto;
+  }
+  .modalImageWrapper {
     width: 55%;
     height: 100%;
     float: left;

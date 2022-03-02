@@ -27,7 +27,7 @@
   font-size: 28px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .navigationBarWrapper {
     display: flex;
     flex-direction: row;
@@ -55,6 +55,6 @@
     order: 1;
   }
   .aboutMargin {
-    margin-left: 33%;
+    margin-left: 30%;
   }
 }

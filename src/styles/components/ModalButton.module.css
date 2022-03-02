@@ -23,7 +23,7 @@
   margin-top: 8px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .linkButton {
     min-width: 39%;
     max-width: 39%;
