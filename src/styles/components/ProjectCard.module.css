@@ -4,6 +4,8 @@
   min-width: 120px;
   min-height: 170px;
   margin: 2%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   background-color: #daa860;
   display: flex;
   flex-direction: column;
