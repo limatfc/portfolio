@@ -29,13 +29,11 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
         <button className={classes.closeButton} onClick={() => onToggleModal()}>
           x
         </button>
-        <div className={classes.modalImageWrapper}>
-          <img
-            className={classes.modalImage}
-            src={modalImageURL}
-            alt={`Screenshot of the ${title} website.`}
-          />
-        </div>
+        <img
+          className={classes.modalImage}
+          src={modalImageURL}
+          alt={`Screenshot of the ${title} website.`}
+        />
         <h2 id="modalProjectsTitle" className={classes.title}>
           {title}
         </h2>
