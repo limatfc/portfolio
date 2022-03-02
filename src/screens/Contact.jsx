@@ -5,10 +5,12 @@ import { socialMediaData } from "../data/contact-social-media";
 
 export default function Contact() {
   const personalInformation = personalData.map((item) => (
-    <div key={item.label} className={classes.personalInformationWrapper}>
-      <span>{item.component}</span>
-      <span className={classes.labelText}>{item.label}</span>
-    </div>
+    <ul key={item.label} className={classes.personalInformationWrapper}>
+      <li>
+        {item.component}
+        <span className={classes.labelText}>{item.label}</span>
+      </li>
+    </ul>
   ));
 
   const socialMediaInformation = socialMediaData.map((item) => (
@@ -27,10 +29,10 @@ export default function Contact() {
         </p>
         {personalInformation}
       </section>
-      <div className={classes.socialMediaWrapper}>
+      <footer className={classes.socialMediaWrapper}>
         <span>{socialMediaInformation}</span>
         <span className={classes.footerText}>@2022 - Thaisa Lima</span>
-      </div>
+      </footer>
     </>
   );
 }
