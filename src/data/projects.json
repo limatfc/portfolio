@@ -6,7 +6,7 @@
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list.png?raw=true",
-    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modai-todo-list.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-todo-list.png?raw=true",
     "gitLink": "https://github.com/limatfc/ikeaShoppingList",
     "hostingLink": "https://limatfc.github.io/ikeaShoppingList/#/",
     "technologiesUsed": [
