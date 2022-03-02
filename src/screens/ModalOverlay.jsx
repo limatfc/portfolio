@@ -16,42 +16,39 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
       {item}
     </span>
   ));
-  if (window.innerWidth > 1000)
-    return (
-      <section>
-        <div className={classes.backdrop} onClick={() => onToggleModal()}></div>
-        <div
-          className={classes.modalWrapper}
-          role="dialog"
-          aria-labelledby="modalProjectsTitle"
-          aria-describedby="modalProjectsDescription"
-        >
-          <button
-            className={classes.closeButton}
-            onClick={() => onToggleModal()}
-          >
-            x
-          </button>
-          <div className={classes.modalImageWrapper}>
-            <img
-              className={classes.modalImage}
-              src={modalImageURL}
-              alt={`Screenshot of the ${title} website.`}
-            />
-          </div>
-          <h2 id="modalProjectsTitle" className={classes.title}>
-            {title}
-          </h2>
-          <p className={classes.paragraph}>{description}</p>
-          <p id={classes.modalProjectsDescription}>
-            In this modal, you will see a screenshot of the website, the title,
-            the description, the technologies used inside the projects, and
-            links for the Github and the website hosting.
-          </p>
-          <div className={classes.pillsWrapper}>{pillsContent}</div>
-          <ModalButton link={hostingLink} label={"Visit website / app"} />
-          <ModalButton link={gitLink} label={"Git repository"} />
+
+  return (
+    <section>
+      <div className={classes.backdrop} onClick={() => onToggleModal()}></div>
+      <div
+        className={classes.modalWrapper}
+        role="dialog"
+        aria-labelledby="modalProjectsTitle"
+        aria-describedby="modalProjectsDescription"
+      >
+        <button className={classes.closeButton} onClick={() => onToggleModal()}>
+          x
+        </button>
+        <div className={classes.modalImageWrapper}>
+          <img
+            className={classes.modalImage}
+            src={modalImageURL}
+            alt={`Screenshot of the ${title} website.`}
+          />
         </div>
-      </section>
-    );
+        <h2 id="modalProjectsTitle" className={classes.title}>
+          {title}
+        </h2>
+        <p className={classes.paragraph}>{description}</p>
+        <p id={classes.modalProjectsDescription}>
+          In this modal, you will see a screenshot of the website, the title,
+          the description, the technologies used inside the projects, and links
+          for the Github and the website hosting.
+        </p>
+        <div className={classes.pillsWrapper}>{pillsContent}</div>
+        <ModalButton link={hostingLink} label={"Visit website / app"} />
+        <ModalButton link={gitLink} label={"Git repository"} />
+      </div>
+    </section>
+  );
 }
