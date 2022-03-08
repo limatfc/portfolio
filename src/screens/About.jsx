@@ -1,6 +1,7 @@
 import classes from "../styles/screens/About.module.css";
 import mainImage from "../assets/images/about-main-image.png";
 
+// good
 export default function About() {
   return (
     <section id="about" className={classes.aboutWrapper}>

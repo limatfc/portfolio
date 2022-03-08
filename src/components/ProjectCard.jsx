@@ -9,6 +9,7 @@ export default function ProjectCard({ projectData, onProjectCardClick }) {
     onProjectCardClick(id);
   }
 
+  // This part does not convice me, you can try a cleaner approach
   let displayedImage = "";
   let modalPointerCSS = "";
   if (comingSoon === true) {

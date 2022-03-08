@@ -4,15 +4,18 @@ import { personalData } from "../data/contact-personal";
 import { socialMediaData } from "../data/contact-social-media";
 
 export default function Contact() {
+  // So close -1
+  // The UL tag does not go here, otherwise you have 10 <ul>'s each one with just 1 <li>
+  // instead of 1 <ul> with 10 <li>
+  // See the refactor here and compare with your master
   const personalInformation = personalData.map((item) => (
-    <ul key={item.label} className={classes.personalInformationWrapper}>
-      <li>
-        {item.component}
-        <span className={classes.labelText}>{item.label}</span>
-      </li>
-    </ul>
+    <li key={item.label}>
+      {item.component}
+      <span className={classes.labelText}>{item.label}</span>
+    </li>
   ));
 
+  // good
   const socialMediaInformation = socialMediaData.map((item) => (
     <a key={item.link} href={item.link} target="_blank" rel="noreferrer">
       {item.component}
@@ -27,7 +30,9 @@ export default function Contact() {
           Here is my contact information, in case you want to have some coffee
           and discuss any of my projects.
         </p>
-        {personalInformation}
+        <ul className={classes.personalInformationWrapper}>
+          {personalInformation}
+        </ul>
       </section>
       <footer className={classes.socialMediaWrapper}>
         <span>{socialMediaInformation}</span>

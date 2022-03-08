@@ -1,6 +1,8 @@
 import ModalButton from "../components/ModalButton";
 import classes from "../styles/screens/ModalOverlay.module.css";
 
+// Naming -1
+// This should be called ModalProject to know what this component do
 export default function ModalOverlay({ onToggleModal, clickedItem }) {
   const {
     title,
@@ -11,6 +13,7 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
     hostingLink,
   } = clickedItem;
 
+  // good
   const pillsContent = technologiesUsed.map((item) => (
     <span className={classes.pills} key={item}>
       {item}
@@ -44,6 +47,7 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
           for the Github and the website hosting.
         </p>
         <div className={classes.pillsWrapper}>{pillsContent}</div>
+        {/* Why a component called ModalButton, could not do the same using CSS classes? -1 */}
         <ModalButton link={hostingLink} label={"Visit website / app"} />
         <ModalButton link={gitLink} label={"Git repository"} />
       </div>
