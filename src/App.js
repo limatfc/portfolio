@@ -1,10 +1,10 @@
-import About from "./screens/About";
-import Contact from "./screens/Contact";
-import Hero from "./screens/Hero";
-import Projects from "./screens/Projects";
-import Tech from "./screens/Tech";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Tech from "./sections/Tech";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Hero />
@@ -15,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -36,14 +36,23 @@
   width: 100%;
   text-align: start;
   padding-top: 16px;
+  color: #573c14;
 }
 
 @media (min-width: 1000px) {
   .cardWrapper {
+    min-width: 130px;
     max-width: 150px;
     min-height: 188px;
   }
   .title {
     margin-left: 5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .cardWrapper {
+    max-width: 200px;
+    min-height: 188px;
   }
 }

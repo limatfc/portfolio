@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
-
-import ModalOverlay from "../screens/ModalOverlay";
+import ModalProject from "../sections/ModalProject";
 
 export default function Modal({ showModal, onToggleModal, clickedItem }) {
   if (!showModal) return null;
@@ -8,7 +7,7 @@ export default function Modal({ showModal, onToggleModal, clickedItem }) {
   return (
     <div>
       {ReactDOM.createPortal(
-        <ModalOverlay
+        <ModalProject
           clickedItem={clickedItem}
           onToggleModal={onToggleModal}
         />,

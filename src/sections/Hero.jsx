@@ -1,7 +1,7 @@
 import NavigationBar from "../components/NavigationBar";
 import heroMainImage from "../assets/images/hero-main-image.png";
 import heroWelcomeImage from "../assets/images/hero-welcome-image.png";
-import classes from "../styles/screens/Hero.module.css";
+import classes from "../styles/sections/Hero.module.css";
 
 export default function Hero() {
   return (

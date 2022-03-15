@@ -20,6 +20,7 @@
 
 .text {
   text-align: center;
+  color: #5c2034;
 }
 
 @media (min-width: 1000px) {

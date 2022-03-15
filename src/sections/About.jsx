@@ -1,4 +1,4 @@
-import classes from "../styles/screens/About.module.css";
+import classes from "../styles/sections/About.module.css";
 import mainImage from "../assets/images/about-main-image.png";
 
 export default function About() {

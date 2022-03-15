@@ -9,15 +9,9 @@ export default function ProjectCard({ projectData, onProjectCardClick }) {
     onProjectCardClick(id);
   }
 
-  let displayedImage = "";
-  let modalPointerCSS = "";
-  if (comingSoon === true) {
-    displayedImage = cardImageComingSoonURL;
-    modalPointerCSS = classes.modalClose;
-  } else {
-    displayedImage = cardImageURL;
-    modalPointerCSS = classes.modalOpen;
-  }
+  const projetStatus = comingSoon === true;
+  const modalPointerCSS = projetStatus ? classes.modalClose : classes.modalOpen;
+  const displayedImage = projetStatus ? cardImageComingSoonURL : cardImageURL;
 
   return (
     <div
