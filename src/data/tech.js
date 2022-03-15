@@ -1,4 +1,4 @@
-import classes from "../styles/screens/Tech.module.css";
+import classes from "../styles/sections/Tech.module.css";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";

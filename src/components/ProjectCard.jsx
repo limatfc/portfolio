@@ -9,16 +9,9 @@ export default function ProjectCard({ projectData, onProjectCardClick }) {
     onProjectCardClick(id);
   }
 
-  // This part does not convice me, you can try a cleaner approach
-  let displayedImage = "";
-  let modalPointerCSS = "";
-  if (comingSoon === true) {
-    displayedImage = cardImageComingSoonURL;
-    modalPointerCSS = classes.modalClose;
-  } else {
-    displayedImage = cardImageURL;
-    modalPointerCSS = classes.modalOpen;
-  }
+  const projetStatus = comingSoon === true;
+  const modalPointerCSS = projetStatus ? classes.modalClose : classes.modalOpen;
+  const displayedImage = projetStatus ? cardImageComingSoonURL : cardImageURL;
 
   return (
     <div

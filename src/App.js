@@ -1,14 +1,10 @@
-import About from "./screens/About";
-import Contact from "./screens/Contact";
-import Hero from "./screens/Hero";
-import Projects from "./screens/Projects";
-import Tech from "./screens/Tech";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Tech from "./sections/Tech";
 
-// Good component organization
-// Use export default here (no points taken in this project, but i will on the next one)
-
-// The correct name for the folder is not screen/ (screen takes the whole... screen), call them sections/
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Hero />
@@ -19,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

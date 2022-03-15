@@ -1,9 +1,7 @@
 import ModalButton from "../components/ModalButton";
-import classes from "../styles/screens/ModalOverlay.module.css";
+import classes from "../styles/sections/ModalProject.module.css";
 
-// Naming -1
-// This should be called ModalProject to know what this component do
-export default function ModalOverlay({ onToggleModal, clickedItem }) {
+export default function ModalProject({ onToggleModal, clickedItem }) {
   const {
     title,
     description,
@@ -13,7 +11,6 @@ export default function ModalOverlay({ onToggleModal, clickedItem }) {
     hostingLink,
   } = clickedItem;
 
-  // good
   const pillsContent = technologiesUsed.map((item) => (
     <span className={classes.pills} key={item}>
       {item}

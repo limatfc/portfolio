@@ -16,6 +16,7 @@
   z-index: 20;
   height: 95%;
   width: 95%;
+  max-width: 960px;
   background-color: #a7cdcc;
   display: flex;
   flex-direction: column;
@@ -28,6 +29,7 @@
 }
 .paragraph {
   margin: 8px;
+  color: #284645;
 }
 .closeButton {
   width: 50px;
@@ -40,10 +42,12 @@
   border-color: transparent;
   display: flex;
   align-items: center;
+  color: #284645;
 }
 
 .title {
   padding-top: 8px;
+  color: #284645;
 }
 
 .pillsWrapper {
@@ -58,10 +62,11 @@
   font-family: "Reenie Beanie";
   font-size: 28px;
   padding: 8px;
-  border-color: black;
+  border-color: #284645;
   border-style: solid;
   margin: 1%;
   border-radius: 100px;
+  color: #284645;
 }
 
 #modalProjectsDescription {

@@ -4,17 +4,27 @@
   padding-bottom: 60px;
 }
 
+.contactWrapper h2,
+.contactWrapper p {
+  color: #5c2034;
+}
+
 .personalInformationWrapper {
   list-style-type: none;
   padding-left: 16px;
   padding-bottom: 8px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: start;
   margin-bottom: 0;
 }
 
+.personalInformationWrapper li {
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
 .labelText {
   font-family: "Architects Daughter";
   font-size: 18px;
@@ -23,6 +33,7 @@
   text-align: justify;
   padding-left: 16px;
   padding-right: 16px;
+  color: #5c2034;
 }
 
 .socialMediaWrapper {
@@ -39,6 +50,7 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1.5%;
+  color: #573c14;
 }
 
 @media (min-width: 1000px) {
@@ -53,13 +65,15 @@
   .personalInformationWrapper {
     float: right;
     margin-top: 22px;
+    width: 50%;
+  }
+  .personalInformationWrapper li {
+    padding-bottom: 16px;
   }
   .socialMediaWrapper {
     width: 100%;
   }
-  .personalInformationWrapper {
-    width: 50%;
-  }
+
   .labelText {
     font-size: 22px;
   }

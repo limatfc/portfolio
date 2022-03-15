@@ -16,11 +16,13 @@
 
 .hostingButton {
   background-color: #daa860;
+  color: #573c14;
 }
 
 .gitButton {
   background-color: transparent;
   margin-top: 8px;
+  color: #284645;
 }
 
 @media (min-width: 1000px) {

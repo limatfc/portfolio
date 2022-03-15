@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from "../components/Modal";
 import ProjectCard from "../components/ProjectCard";
 import projectsData from "../data/projects.json";
-import classes from "../styles/screens/Projects.module.css";
+import classes from "../styles/sections/Projects.module.css";
 
 export default function Projects() {
   const [showModal, setShowModal] = useState(false);
@@ -28,7 +28,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className={classes.projectsWrapper}>
-      <h2>Projects</h2>
+      <h2 className={classes.title}>Projects</h2>
       <p className={classes.paragraph}>
         Here are the projects I have done so far, plus a few I am going to be
         making during the Novare Intensive FrontEnd Course.

@@ -1,9 +1,7 @@
-import classes from "../styles/screens/Tech.module.css";
+import classes from "../styles/sections/Tech.module.css";
 import { techData } from "../data/tech";
 
 export default function Tech() {
-  // Nesting -1
-  // Why a return here? You can do it withouth it, compare this branch vs. your master
   const technologySymbol = techData.map((item) => (
     <span key={item.heading} className={classes.iconWrapper}>
       {item.component}

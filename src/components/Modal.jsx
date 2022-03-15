@@ -1,15 +1,13 @@
-import ReactDOM from "react-dom"; // no need to import React since v17
+import ReactDOM from "react-dom";
+import ModalProject from "../sections/ModalProject";
 
-import ModalOverlay from "../screens/ModalOverlay";
-
-// good
 export default function Modal({ showModal, onToggleModal, clickedItem }) {
   if (!showModal) return null;
 
   return (
     <div>
       {ReactDOM.createPortal(
-        <ModalOverlay
+        <ModalProject
           clickedItem={clickedItem}
           onToggleModal={onToggleModal}
         />,

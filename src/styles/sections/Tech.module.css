@@ -3,7 +3,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.techWrapper h2,
+.techWrapper p {
+  color: #284645;
+}
 .allIconsWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -35,6 +38,7 @@
 
 .h3 {
   text-align: center;
+  color: #284645;
 }
 
 @media (min-width: 1000px) {

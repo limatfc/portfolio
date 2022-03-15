@@ -1,13 +1,9 @@
-import classes from "../styles/screens/Contact.module.css";
+import classes from "../styles/sections/Contact.module.css";
 
 import { personalData } from "../data/contact-personal";
 import { socialMediaData } from "../data/contact-social-media";
 
 export default function Contact() {
-  // So close -1
-  // The UL tag does not go here, otherwise you have 10 <ul>'s each one with just 1 <li>
-  // instead of 1 <ul> with 10 <li>
-  // See the refactor here and compare with your master
   const personalInformation = personalData.map((item) => (
     <li key={item.label}>
       {item.component}
@@ -15,7 +11,6 @@ export default function Contact() {
     </li>
   ));
 
-  // good
   const socialMediaInformation = socialMediaData.map((item) => (
     <a key={item.link} href={item.link} target="_blank" rel="noreferrer">
       {item.component}
