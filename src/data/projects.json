@@ -5,7 +5,7 @@
     "description": "This EIKA to do list project allows its users to add products and their prices to a shopping list, and allows users to save the list even after the webapp is closed. This project was created for EIKA's clients.",
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list.png?raw=true",
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-todo-list1.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-todo-list.png?raw=true",
     "gitLink": "https://github.com/limatfc/ikeaShoppingList",
     "hostingLink": "https://limatfc.github.io/ikeaShoppingList/#/",
@@ -32,14 +32,14 @@
   {
     "id": 3,
     "title": "Vegan Restaurant",
-    "description": "This project allows to further develop clean code practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
+    "description": "This multi page website allows the user to search for specific dishes from several food categories, and allows the costumer to insert his/her data to book a table. This project was created for the restaurant's clients.",
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant1.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-vegan-restaurant.png?raw=true",
     "gitLink": "https://github.com/limatfc/veganRestaurant",
     "hostingLink": "https://aadfsdfsdf-4e777.web.app/",
-    "technologiesUsed": ["React", "CSS", "JavaScript", "Recoil"]
+    "technologiesUsed": ["React", "CSS", "JavaScript", "React Router"]
   },
   {
     "id": 4,
