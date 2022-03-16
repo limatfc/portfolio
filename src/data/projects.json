@@ -33,12 +33,12 @@
     "id": 3,
     "title": "Vegan Restaurant",
     "description": "This project allows to further develop clean code practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API.",
-    "comingSoon": true,
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
-    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
-    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "gitLink": "https://github.com/limatfc/veganRestaurant",
+    "hostingLink": "https://aadfsdfsdf-4e777.web.app/",
     "technologiesUsed": ["React", "CSS", "JavaScript", "Recoil"]
   },
   {
