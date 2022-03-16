@@ -11,8 +11,9 @@
 .modalWrapper {
   position: fixed;
   overflow: auto;
-  left: 2%;
+  left: 50%;
   top: 2%;
+  transform: translate(-50%, 0%);
   z-index: 20;
   height: 95%;
   width: 95%;
