@@ -36,7 +36,7 @@
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
-    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-vegan-restaurant.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-vegan-restaurant.png?raw=true",
     "gitLink": "https://github.com/limatfc/veganRestaurant",
     "hostingLink": "https://aadfsdfsdf-4e777.web.app/",
     "technologiesUsed": ["React", "CSS", "JavaScript", "Recoil"]
