@@ -12,10 +12,10 @@
   position: fixed;
   overflow: auto;
   left: 50%;
-  top: 2%;
-  transform: translate(-50%, 0%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 20;
-  height: 95%;
+  height: fit-content;
   width: 95%;
   max-width: 960px;
   background-color: #a7cdcc;
@@ -24,13 +24,14 @@
 }
 
 .modalImage {
-  max-height: 160px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: 160px;
 }
 .paragraph {
-  margin: 8px;
-  color: #284645;
+  color: #375a64;
+  margin: 0;
 }
 .closeButton {
   width: 50px;
@@ -43,31 +44,30 @@
   border-color: transparent;
   display: flex;
   align-items: center;
-  color: #284645;
+  color: #375a64;
 }
 
 .title {
-  padding-top: 8px;
-  color: #284645;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #375a64;
 }
 
 .pillsWrapper {
   display: flex;
   max-width: fit-content;
   flex-wrap: wrap;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 8px;
+  margin: 8px;
 }
 .pills {
   font-family: "Reenie Beanie";
   font-size: 28px;
   padding: 8px;
-  border-color: #284645;
+  border-color: #375a64;
   border-style: solid;
   margin: 1%;
   border-radius: 100px;
-  color: #284645;
+  color: #375a64;
 }
 
 #modalProjectsDescription {
@@ -76,48 +76,37 @@
 
 @media (min-width: 1000px) {
   .modalWrapper {
-    display: block;
-    height: auto;
-    top: 20%;
-  }
-
-  .modalImage {
-    float: left;
-    max-height: none;
-    max-width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 1%;
-  }
-  .paragraph {
-    margin-left: 50%;
-    margin-bottom: 0;
-  }
-  .pillsWrapper {
-    margin-left: 53%;
     display: flex;
     flex-direction: row;
-    padding-left: 1%;
+  }
+  .title {
+    padding-left: 24px;
+  }
+  .imageWrapper {
+    width: 50%;
+  }
+  .modalImage {
+    height: auto;
+  }
+  .paragraph {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .contentWrapper {
+    width: 50%;
+  }
+  .pillsWrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
     padding-top: 1%;
+  }
+  .closeButton {
+    top: 8px;
+    right: 16px;
   }
   .pills {
     margin: 3px;
-  }
-  .title {
-    margin-left: 50%;
-  }
-  .closeButton {
-    position: relative;
-    float: right;
-    padding-top: 3%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .modalImage {
-    padding-top: 5%;
-    padding-bottom: 5%;
   }
 }

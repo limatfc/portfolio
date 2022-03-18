@@ -5,7 +5,7 @@
 }
 .techWrapper h2,
 .techWrapper p {
-  color: #284645;
+  color: #375a64;
 }
 .allIconsWrapper {
   display: flex;
@@ -38,7 +38,7 @@
 
 .h3 {
   text-align: center;
-  color: #284645;
+  color: #375a64;
 }
 
 @media (min-width: 1000px) {

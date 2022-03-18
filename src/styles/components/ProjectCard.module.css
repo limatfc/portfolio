@@ -2,7 +2,7 @@
   max-width: 150px;
   width: 45%;
   min-width: 120px;
-  min-height: 170px;
+  min-height: 185px;
   margin: 2%;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -35,6 +35,7 @@
 .title {
   width: 100%;
   text-align: start;
+  padding-left: 8px;
   padding-top: 16px;
   color: #8a5b2f;
 }
@@ -46,7 +47,7 @@
     min-height: 188px;
   }
   .title {
-    margin-left: 5%;
+    padding-left: 16px;
   }
 }
 

@@ -1,4 +1,5 @@
 .linkButton {
+  box-sizing: border-box;
   height: 50px;
   min-height: 50px;
   min-width: 90%;
@@ -7,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0 24px;
   font-family: "Reenie Beanie";
   font-size: 28px;
   align-self: center;
@@ -15,23 +16,23 @@
 }
 .hostingButton {
   background-color: #daa860;
-  color: #573c14;
+  color: #8a5b2f;
+  text-decoration: none;
 }
 
 .gitButton {
   background-color: transparent;
   margin-top: 8px;
-  color: #284645;
+  margin-bottom: 8px;
+  color: #375a64;
+  text-decoration: none;
 }
 
 @media (min-width: 1000px) {
   .linkButton {
-    min-width: 41.5%;
-    max-width: 41.5%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 53%;
   }
 }
