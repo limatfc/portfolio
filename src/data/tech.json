@@ -1,0 +1,43 @@
+[
+  {
+    "iconURL": "react.png",
+    "heading": "React"
+  },
+  {
+    "iconURL": "javascript.png",
+    "heading": "JavaScript"
+  },
+  {
+    "iconURL": "css.png",
+    "heading": "CSS"
+  },
+  {
+    "iconURL": "figma.png",
+    "heading": "Figma"
+  },
+
+  {
+    "iconURL": "html.png",
+    "heading": "HTML"
+  },
+  {
+    "iconURL": "firebase.png",
+    "heading": "Firebase Database"
+  },
+  {
+    "iconURL": "github.png",
+    "heading": "Github"
+  },
+  {
+    "iconURL": "commandline.png",
+    "heading": "Command Line"
+  },
+  {
+    "iconURL": "typescript.png",
+    "heading": "TypeScript"
+  },
+  {
+    "iconURL": "firebase.png",
+    "heading": "Firebase Auth"
+  }
+]
