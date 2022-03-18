@@ -25,6 +25,12 @@
   display: flex;
   align-items: center;
 }
+
+.personalInformationWrapper li img {
+  width: 30px;
+  height: auto;
+}
+
 .labelText {
   font-family: "Architects Daughter";
   font-size: 18px;
@@ -43,6 +49,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.socialMediaWrapper a img {
+  width: 40px;
+  margin: 16px;
 }
 
 .footerText {

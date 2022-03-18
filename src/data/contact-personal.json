@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "telephone.png",
+    "label": "+46 76 080 9234",
+    "alt": "a telephone icon with an arrow on top"
+  },
+  {
+    "icon": "email.png",
+    "label": "thaisafc.lima@outlook.com",
+    "alt": "an envelope icon"
+  },
+  {
+    "icon": "location.png",
+    "label": "Upplands Vasby, Sweden",
+    "alt": "a location icon"
+  }
+]

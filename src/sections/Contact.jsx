@@ -1,19 +1,25 @@
 import classes from "../styles/sections/Contact.module.css";
 
-import { personalData } from "../data/contact-personal";
-import { socialMediaData } from "../data/contact-social-media";
+import personalData from "../data/contact-personal.json";
+import socialMediaData from "../data/contact-social-media.json";
 
 export default function Contact() {
   const personalInformation = personalData.map((item) => (
     <li key={item.label}>
-      {item.component}
+      <img
+        src={require(`../assets/icons/contact/${item.icon}`)}
+        alt={item.alt}
+      />
       <span className={classes.labelText}>{item.label}</span>
     </li>
   ));
 
   const socialMediaInformation = socialMediaData.map((item) => (
     <a key={item.link} href={item.link} target="_blank" rel="noreferrer">
-      {item.component}
+      <img
+        src={require(`../assets/icons/contact/${item.icon}`)}
+        alt={item.alt}
+      />
     </a>
   ));
 
