@@ -1,5 +1,5 @@
-import ModalButton from "../components/ModalButton";
-import classes from "../styles/sections/ModalProject.module.css";
+import ModalButton from "./ModalButton";
+import classes from "../styles/components/ModalProject.module.css";
 
 export default function ModalProject({ onToggleModal, clickedItem }) {
   const {
@@ -44,9 +44,12 @@ export default function ModalProject({ onToggleModal, clickedItem }) {
           for the Github and the website hosting.
         </p>
         <div className={classes.pillsWrapper}>{pillsContent}</div>
-        {/* Why a component called ModalButton, could not do the same using CSS classes? -1 */}
-        <ModalButton link={hostingLink} label={"Visit website / app"} />
-        <ModalButton link={gitLink} label={"Git repository"} />
+        <ModalButton link={hostingLink} classStyle="primary">
+          Visit website / app
+        </ModalButton>
+        <ModalButton link={gitLink} classStyle="secundary">
+          Git repository
+        </ModalButton>
       </div>
     </section>
   );

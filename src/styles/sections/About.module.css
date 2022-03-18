@@ -10,7 +10,7 @@
   margin-bottom: 0;
   -webkit-order: 2;
   order: 2;
-  color: #284645;
+  color: #375a64;
 }
 
 .image {
@@ -23,7 +23,7 @@
 .title {
   -webkit-order: 1;
   order: 1;
-  color: #284645;
+  color: #375a64;
 }
 
 @media (min-width: 1000px) {

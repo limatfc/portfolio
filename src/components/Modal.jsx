@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import ModalProject from "../sections/ModalProject";
+import ModalProject from "../components/ModalProject";
 
 export default function Modal({ showModal, onToggleModal, clickedItem }) {
   if (!showModal) return null;

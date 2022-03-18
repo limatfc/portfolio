@@ -12,7 +12,7 @@
 }
 .logoText {
   display: none;
-  color: #573c14;
+  color: #8a5b2f;
 }
 .logo {
   height: auto;
@@ -26,7 +26,7 @@
   cursor: pointer;
   font-family: "Reenie Beanie";
   font-size: 28px;
-  color: #573c14;
+  color: #8a5b2f;
 }
 
 @media (min-width: 1000px) {
