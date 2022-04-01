@@ -48,9 +48,9 @@
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon1.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
-    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
-    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
-    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-package-tracker.png?raw=true",
+    "gitLink": "https://github.com/limatfc/packagetracker",
+    "hostingLink": "https://packagetracker-fc441.web.app/",
     "technologiesUsed": [
       "JavaScript",
       "React",
