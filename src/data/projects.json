@@ -44,8 +44,8 @@
   {
     "id": 4,
     "title": "Package tracker",
-    "description": "A project where they switch from a static JSON file to a real API call to obtain and present data from a server.",
-    "comingSoon": true,
+    "description": "This multi page website allows the user to search for his/her packages by inputing their telephone number on the right field. This project was created for everyone that has packages registered with this delivery company.",
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon1.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-package-tracker.png?raw=true",
