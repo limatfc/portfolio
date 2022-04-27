@@ -66,7 +66,7 @@
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon1.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-bbq-restaurant.png?raw=true",
-    "modalImageURL": "",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-bbqrestaurant.png?raw=true",
     "gitLink": "https://github.com/limatfc/bbqrestaurant",
     "hostingLink": "https://bbqrestaurant-7374e.web.app/",
     "technologiesUsed": [
