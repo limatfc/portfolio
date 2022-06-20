@@ -105,8 +105,8 @@
     "description": "A fullstack application that allows users to access their account and use a Clarifai API to recognize faces in any inputed image. This application uses heroku to host its frontend, server and database.",
     "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon1.png?raw=true",
-    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-netflix.png?raw=true",
-    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-netflix.png?raw=true",
+    "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-smart-brain.png?raw=true",
+    "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/modal-smart-brain.png?raw=true",
     "gitLink": "https://github.com/limatfc/facerecognition",
     "hostingLink": "https://lima-facerecognition.herokuapp.com/",
     "technologiesUsed": [
