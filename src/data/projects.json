@@ -82,21 +82,21 @@
     "id": 7,
     "title": "Learning Platform",
     "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features.",
-    "comingSoon": true,
+    "comingSoon": false,
     "cardImageComingSoonURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-coming-soon1.png?raw=true",
     "cardImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-learning-platfom.png?raw=true",
     "modalImageURL": "https://github.com/limatfc/portfolio/blob/master/src/assets/images/projects-learning-platfom.png?raw=true",
-    "gitLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
-    "hostingLink": "https://us.lifelovingfoods.com/wp-content/uploads/2020/12/under-construction-gif-11.gif",
+    "gitLink": "https://github.com/limatfc/learning-plataform",
+    "hostingLink": "https://learning-plataform.web.app/",
     "technologiesUsed": [
-      "Unit testing",
+      "CSS",
       "JavaScript",
       "React",
       "ContextAPI",
-      "Prop types",
       "CloudStorage",
-      "TyoeScript",
-      "FireAuth"
+      "Firestore database",
+      "FireAuth",
+      "LocalStorage"
     ]
   },
   {
